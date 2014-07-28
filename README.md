@@ -9,7 +9,7 @@ rhacct: add users to or modify users in the Red Hat Customer Portal. Uses
 email address to idenitfy user. Created username is email address and password
 is default value. Assumes organizational admin credentials are in
 /etc/rhacct.conf. Otherwise prompts for credentials.
-
+```
 Options:
   -h, --help            show this help message and exit
   -e, --explain         Explains permissions; e.g. 'rhacct -e'
@@ -45,3 +45,4 @@ Options:
                         said file is present rhacct will not prompt for input
                         each time it is run.
   -v, --verbose         Print status messages to stdout
+```
