@@ -3,13 +3,14 @@ rhacct
 
 Allows an org admin to create a user account within the Red Hat Customer Portal (access.redhat.com). rhacct is shortfor Red Hat Account Tool and is prounced "racket", as "turn down that racket"
 
+```
 Usage: rhacct [options] user@example.com
 
 rhacct: add users to or modify users in the Red Hat Customer Portal. Uses
 email address to idenitfy user. Created username is email address and password
 is default value. Assumes organizational admin credentials are in
 /etc/rhacct.conf. Otherwise prompts for credentials.
-```
+
 Options:
   -h, --help            show this help message and exit
   -e, --explain         Explains permissions; e.g. 'rhacct -e'
